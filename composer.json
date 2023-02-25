@@ -1,0 +1,31 @@
+{
+    "name": "fxcjahid/laravel-editor-js-html",
+    "version": "0.1",
+	"type": "package",
+    "description": "Package converts editorjs blocks into html.",
+	"keywords": ["editorjs", "Laravel editorjs", "editorjs to Html generator"],
+	"license": "MIT",
+	"homepage": "https://github.com/fxcjahid/laravel-editor-js-html",
+    "authors": [
+        {
+            "name": "Fxcjahid",
+            "email": "fxcjahid3@gmail.com",
+			"role": "Developer",
+			"homepage": "https://github.com/fxcjahid"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "^6.3|7.*",
+		"airmanbzh/php-html-generator": "^1.0.2",
+		"fxcjahid/laravel-table-of-content": "^0.1"
+    },
+	"suggest": {
+		"fxcjahid/laravel-table-of-content": "^0.1"
+	},
+    "autoload": {
+        "psr-4": {
+            "Fxcjahid\\LaravelEditorJsHtml\\": "src/"
+        }
+    }
+}
