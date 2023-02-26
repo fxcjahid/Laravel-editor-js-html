@@ -17,11 +17,11 @@
                  </svg>
              </div>
              <div class="col-start-[22] col-end-auto row-start-1 row-end-auto gap-2">
-                 <h2 class="font-futura my-4 text-2xl font-semibold text-white"
+                 <h2 class="font-futura my-4 text-2xl font-semibold !text-white"
                      aria-label="warning-title">
                      {!! $data['data']->title !!}
                  </h2>
-                 <p class="mt-4 mb-2 text-lg font-normal text-white"
+                 <p class="mt-4 mb-2 text-lg font-normal !text-white"
                     aria-label="warning-description">
                      {!! $data['data']->message !!}
                  </p>
