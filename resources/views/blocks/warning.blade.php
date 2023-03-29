@@ -1,7 +1,7 @@
- <div class="my-5 md:my-8"
+ <div class="my-5 md:my-10"
       aria-label="warning">
      <div class="rounded-2xl border-none border-theme-color bg-theme-light p-5 shadow-xl">
-         <div class="grid gap-3">
+         <div class="flex flex-col md:grid md:gap-3">
              <div
                   class="col-start-1 col-end-[22] row-start-1 row-end-auto inline-flex items-center justify-center p-5">
                  <svg xmlns="http://www.w3.org/2000/svg"
@@ -17,11 +17,11 @@
                  </svg>
              </div>
              <div class="col-start-[22] col-end-auto row-start-1 row-end-auto gap-2">
-                 <h2 class="font-futura my-4 text-2xl font-semibold !text-white"
-                     aria-label="warning-title">
+                 <div class="font-futura text-2xl font-semibold !text-white md:my-4"
+                      aria-label="warning-title">
                      {!! $data['data']->title !!}
-                 </h2>
-                 <p class="mt-4 mb-2 text-lg font-normal !text-white"
+                 </div>
+                 <p class="!mt-4 mb-2 text-lg font-normal !leading-snug !text-white"
                     aria-label="warning-description">
                      {!! $data['data']->message !!}
                  </p>
