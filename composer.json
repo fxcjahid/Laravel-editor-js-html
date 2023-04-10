@@ -21,7 +21,7 @@
 		"fxcjahid/laravel-table-of-content": "^0.1"
     },
 	"suggest": {
-		"fxcjahid/laravel-table-of-content": "^0.1"
+		"fxcjahid/laravel-table-of-content": "*"
 	},
     "autoload": {
         "psr-4": {
