@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
+        "php": "^7.2",
         "guzzlehttp/guzzle": "^6.3|7.*",
 		"airmanbzh/php-html-generator": "^1.0.2",
 		"fxcjahid/laravel-table-of-content": "^0.1"
