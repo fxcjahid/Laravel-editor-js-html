@@ -10,7 +10,7 @@ This package conver EditorJs to pure Html
 
 2. Add provider in `config/app.php`
 
-` Fxcjahid\LaravelEditorJsHtml\LaravelEditorJsHtmlProvider::class, `
+` fxcjahid\LaravelEditorJsHtml\LaravelEditorJsHtmlProvider::class, `
 
 
 Supported Blocks and tools:
