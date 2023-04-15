@@ -1,6 +1,6 @@
 <?php
 
-namespace Fxcjahid\LaravelEditorJsHtml;
+namespace fxcjahid\LaravelEditorJsHtml;
 
 use Illuminate\Support\ServiceProvider;
 

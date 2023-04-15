@@ -1,11 +1,11 @@
 <?php
 
-namespace Fxcjahid\LaravelEditorJsHtml;
+namespace fxcjahid\LaravelEditorJsHtml;
 
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\View;
 use HtmlGenerator\HtmlTag;
-use Fxcjahid\LaravelTableOfContent\Table;
+use fxcjahid\LaravelTableOfContent\Table;
 
 class BlocksManager
 {
