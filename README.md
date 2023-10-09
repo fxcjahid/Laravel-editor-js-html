@@ -8,11 +8,15 @@ This package conver EditorJs to pure Html
 
 1. Install package
 
-``composer require fxcjahid/Laravel-editor-js-html``
+``` bash
+composer require fxcjahid/Laravel-editor-js-html
+```
 
 2. Add provider in `config/app.php`
 
-` fxcjahid\LaravelEditorJsHtml\LaravelEditorJsHtmlProvider::class, `
+```PHP 
+fxcjahid\LaravelEditorJsHtml\LaravelEditorJsHtmlProvider::class, 
+```
 
 
 Supported Blocks and tools:
